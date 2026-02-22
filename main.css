@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base{
+  @font-face {
+    font-family: "Default-font";
+    src: url(./fonts/KantumruyPro-Medium.ttf);
+  }
+}
+
+@font-face {
+  font-family: 'Moulpali';
+  src: url('./fonts/Moulpali-Regular.ttf') ;
+}
+
+@theme{
+  --default-font-family:"Default-font";
+  --font-heading: 'Moulpali';
+} 
